@@ -1,22 +1,32 @@
 body {
-    background-color: 
+    background-color: grey;
     box-sizing: border-box; 
     display: flex;
   flex-direction: column; 
   min-height: 100vh;
 }
+.sections {
+  display: flex;
+  padding: 10px; 
+  flex-direction: column; 
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
 .navbar {
 background-color: green;
   border: 3px dashed yellow; 
   position: fixed; 
   overflow: hidden; 
   top: 0;
-  width: 100%; 
+  width: 95.5%; 
   padding: 5px;
+  height: 15px; 
 }
 
 .name {
   background-color: pink;
+  margin-top: 15px; 
 }
 
 .navbar:hover { 
