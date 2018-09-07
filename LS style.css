@@ -118,6 +118,20 @@ margin-right: auto;
   background-color: white; 
 }
 
+.gallery_pics {
+  height: 250px; 
+  width: 250px;
+  border-radius: 1000px;
+  border-width: 6.75px;
+  border-color: black;
+  border-style: double dotted double dotted;
+  filter: grayscale(100%);
+}
+
+.gallery_pics:hover{
+  filter: none;
+  border-color: pink;
+}
 
 /* @media (min-width: 768px) {
 
