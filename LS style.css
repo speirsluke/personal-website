@@ -5,6 +5,28 @@ body {
   flex-direction: column; 
   margin: 0;
 }
+
+h1 {
+  font-family: 'Permanent marker', cursive;
+  font-size: 40px;
+  color: pink; 
+  text-align: center; 
+}
+.white_text{
+  font-family: 'arapey', serif;
+  font-size: 20px; 
+  font-color: white; 
+  text-align: center; 
+  text-justify: auto;
+}
+.black_text{
+    font-family: 'arapey', serif;
+  font-size: 20px; 
+  font-color: black; 
+  text-align: center; 
+  text-justify: auto;
+}
+
 .sections {
   display: flex; 
   flex-direction: column; 
@@ -68,8 +90,8 @@ color: pink;
       border-width: 6.75px; 
       border-style: double dotted double dotted;
       border-radius: 100%;
-      width: 100px; 
-      height: 100px;
+      width: 150px; 
+      height: 150px;
 }
 
 img.center {
@@ -80,12 +102,16 @@ margin-right: auto;
 
 .about {
     background-color: white;
-  flex: 4;
+  flex: 2;
+  color: black; 
+  text-align: center;
+  
 }
 
 .projects { 
     background-color: black;
-  flex: 1;
+  flex: 4;
+  min-height: 20px;
 }
 
 
