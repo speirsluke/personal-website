@@ -1,38 +1,49 @@
 body {
-    background-color: grey;
+    background-color: white;
     box-sizing: border-box; 
     display: flex;
   flex-direction: column; 
-  min-height: 100vh;
+  margin: 0;
 }
 .sections {
-  display: flex;
-  padding: 10px; 
+  display: flex; 
   flex-direction: column; 
   min-height: 100vh;
-  justify-content: space-between;
+  align-items: stretch;
 }
 
 .navbar {
-background-color: green;
-  border: 3px dashed yellow; 
+display: flex;
+  background-color: black; 
   position: fixed; 
   overflow: hidden; 
+  justify-content: space-around;
   top: 0;
-  width: 95.5%; 
-  padding: 5px;
-  height: 15px; 
+  width: 100%;
+  height: 20px; 
+  font-family: 'Arapey', serif;
+  font-size: 20px
 }
 
-.name {
-  background-color: pink;
-  margin-top: 15px; 
+
+
+.bg_black {
+background-color: black; 
+color: white;
+  height: 90%;
 }
 
-.navbar:hover { 
-background-color: yellow; 
-  color: green;
+.bg_black:hover {
+
+color: pink; 
+
 }
+
+.bg_white:hover {
+background-color: black; 
+color: pink;
+}
+
 .navbar text{ 
 
 }
@@ -41,13 +52,39 @@ background-color: yellow;
 
 }
 
+
+.name {
+  background-color: white;
+  margin-top: 8px; 
+  min-height: 45px; 
+  text-align: center; 
+  font-family: 'Permanent marker', cursive;
+  font-size: 40px; 
+  color: pink; 
+}
+
+#about_pic {
+      border-color: black;
+      border-width: 6.75px; 
+      border-style: double dotted double dotted;
+      border-radius: 100%;
+      width: 100px; 
+      height: 100px;
+}
+
+img.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
 .about {
-    background-color: hotpink;
+    background-color: white;
   flex: 4;
 }
 
 .projects { 
-    background-color: skyblue;
+    background-color: black;
   flex: 1;
 }
 
