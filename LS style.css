@@ -1,0 +1,57 @@
+body {
+    background-color: 
+    box-sizing: border-box; 
+    display: flex;
+  flex-direction: column; 
+  min-height: 100vh;
+}
+.navbar {
+background-color: green;
+  border: 3px dashed yellow; 
+  position: fixed; 
+  overflow: hidden; 
+  top: 0;
+  width: 100%; 
+  padding: 5px;
+}
+
+.name {
+  background-color: pink;
+}
+
+.navbar:hover { 
+background-color: yellow; 
+  color: green;
+}
+.navbar text{ 
+
+}
+
+.navbar text:hover{
+
+}
+
+.about {
+    background-color: hotpink;
+  flex: 4;
+}
+
+.projects { 
+    background-color: skyblue;
+  flex: 1;
+}
+
+
+/* @media (min-width: 768px) {
+
+}
+
+
+@media (min-width: 960px) {
+
+}
+
+
+@media (min-width: 1200px) {
+
+} */
