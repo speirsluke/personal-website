@@ -153,6 +153,15 @@ margin-right: auto;
 .contact { 
 background-color: pink; 
   height: 100%;
+  font-family: 'arapey', serif;
+  font-size: 20px; 
+ color: white; 
+  text-align: center; 
+  text-justify: auto;
+}
+
+.contact h1 {
+  color: white;
 }
 
 @media (min-width: 768px) {
