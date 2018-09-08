@@ -290,6 +290,7 @@ margin-right: auto;
   filter: none;
   border-color: pink;
 }
+}
 
 @media (min-width: 960px) {
 body {
