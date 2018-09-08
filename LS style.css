@@ -119,14 +119,17 @@ margin-right: auto;
 
 .projects { 
     background-color: black;
-  flex: 4;
+  flex: ;
   min-height: 20px;
 }
 
 .video { 
-width: 460;
-  height: 215;
-}
+  width: 560px;
+    height: 315px;
+    border: solid; 
+    border-style: double dotted double dotted; 
+    border-width: 6.75px;
+  }
 
 .gallery {
   background-color: white; 
@@ -269,9 +272,12 @@ margin-right: auto;
   flex: 4;
   min-height: 20px;
 }
-  .video {
-    width: 510px; 
-    height: 275px;
+   .video { 
+  width: 560px;
+    height: 315px;
+    border: solid; 
+    border-style: double dotted double dotted; 
+    border-width: 6.75px;
   }
   
 .gallery {
@@ -303,7 +309,7 @@ margin-right: auto;
   
 @media (min-width: 960px) {
 body {
-    background-color: black;
+    background-color: white;
     box-sizing: border-box; 
     display: flex;
   flex-direction: column; 
@@ -314,20 +320,20 @@ body {
 h1 {
   font-family: 'Permanent marker', cursive;
   font-size: 40px;
-  color: pink; 
+  color: white; 
   text-align: center; 
 }
 .white_text{
   font-family: 'arapey', serif;
   font-size: 20px; 
-  font-color: white; 
+  font-color: black; 
   text-align: center; 
   text-justify: auto;
 }
 .black_text{
     font-family: 'arapey', serif;
   font-size: 20px; 
-  font-color: black; 
+  font-color: white; 
   text-align: center; 
   text-justify: auto;
 }
@@ -342,11 +348,10 @@ h1 {
 
 .navbar {
 display: flex;
-  background-color: black; 
+  background-color: pink; 
   position: fixed; 
   overflow: hidden; 
   justify-content: space-around;
-  top: 0;
   width: 100%;
   height: 20px; 
   font-family: 'Arapey', serif;
@@ -357,19 +362,19 @@ display: flex;
 
 
 .bg_black {
-background-color: black; 
+background-color: pink; 
 color: white;
   height: 90%;
 }
 
 .bg_black:hover {
 
-color: pink; 
+color: black; 
 
 }
 
 .bg_white:hover {
-background-color: black; 
+background-color: ; 
 color: pink;
 }
 
@@ -383,17 +388,18 @@ color: pink;
 
 
 .name {
-  background-color: white;
-  margin-top: 8px; 
+  background-color: black;
+  margin-top: 10px; 
   min-height: 45px; 
   text-align: center; 
   font-family: 'Permanent marker', cursive;
   font-size: 40px; 
-  color: pink;
+  color: white;
+  flex 1;
 }
 
 #about_pic {
-      border-color: black;
+      border-color: white;
       border-width: 6.75px; 
       border-style: double dotted double dotted;
       border-radius: 100%;
@@ -408,22 +414,34 @@ margin-right: auto;
 }
 
 .about {
-    background-color: white;
+    background-color: black;
   flex: 2;
-  color: black; 
+  color: white; 
   text-align: center;
   
 }
 
 .projects { 
-    background-color: black;
-  flex: 4;
+    background-color: pink;
+  flex: 2;
   min-height: 20px;
 }
+  
+  .project_text {
+    color: white; 
+    font-family: arapey, 
+      serif; font-size: 20px; 
+    text-align: center;
+  }
+  
   
   .video { 
   width: 560px;
     height: 315px;
+    border: solid; 
+    border-style: double dotted double dotted; 
+    border-width: 6.75px;
+    border-color: white;
   }
 
 .gallery {
@@ -439,6 +457,7 @@ margin-right: auto;
   border-style: double dotted double dotted;
   filter: grayscale(100%);
   margin: 7px;
+  flex: 1;
 }
 
 .gallery_pics:hover{
@@ -464,4 +483,16 @@ margin-right: auto;
   #bottom_of_page { 
   }
   
+  .contact {
+    background-color: white;
+    color: pink;
+    font-family: arapey, 
+      serif; font-size: 20px; 
+    text-align: center;
+  }
+  
+  .contact h1 {
+    color: pink;
+    
+  }
 }
