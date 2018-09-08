@@ -1,5 +1,6 @@
 body {
     background-color: black;
+  background: url(https://i.imgur.com/MJAkxbh.png);
     box-sizing: border-box; 
     display: flex;
   flex-direction: column; 
@@ -290,8 +291,15 @@ margin-right: auto;
   filter: none;
   border-color: pink;
 }
-}
 
+  
+  
+  
+  
+  
+  
+  
+  
 @media (min-width: 960px) {
 body {
     background-color: black;
@@ -299,6 +307,7 @@ body {
     display: flex;
   flex-direction: column; 
   margin: 0;
+    background: url("https://i.imgur.com/MJAkxbh.png");
 }
 
 h1 {
@@ -327,6 +336,7 @@ h1 {
   flex-direction: column; 
   min-height: 100vh;
   align-items: stretch;
+
 }
 
 .navbar {
@@ -377,7 +387,7 @@ color: pink;
   text-align: center; 
   font-family: 'Permanent marker', cursive;
   font-size: 40px; 
-  color: pink; 
+  color: pink;
 }
 
 #about_pic {
@@ -426,10 +436,26 @@ margin-right: auto;
   border-color: black;
   border-style: double dotted double dotted;
   filter: grayscale(100%);
+  margin: 5px;
 }
 
 .gallery_pics:hover{
   filter: none;
   border-color: pink;
+}
+  .hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 }
