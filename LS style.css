@@ -1,67 +1,67 @@
 body {
-    background-color: black;
-  background: url(https://i.imgur.com/MJAkxbh.png);
-    box-sizing: border-box; 
-    display: flex;
-  flex-direction: column; 
-  margin: 0;
+  background-color: black;
+background: url(https://i.imgur.com/MJAkxbh.png);
+  box-sizing: border-box; 
+  display: flex;
+flex-direction: column; 
+margin: 0;
 }
 
 h1 {
-  font-family: 'Permanent marker', cursive;
-  font-size: 40px;
-  color: pink; 
-  text-align: center; 
+font-family: 'Permanent marker', cursive;
+font-size: 40px;
+color: pink; 
+text-align: center; 
 }
 .white_text{
-  font-family: 'arapey', serif;
-  font-size: 20px; 
-  font-color: white; 
-  text-align: center; 
-  text-justify: auto;
+font-family: 'arapey', serif;
+font-size: 20px; 
+font-color: white; 
+text-align: center; 
+text-justify: auto;
 }
 .black_text{
-    font-family: 'arapey', serif;
-  font-size: 20px; 
-  font-color: black; 
-  text-align: center; 
-  text-justify: auto;
+  font-family: 'arapey', serif;
+font-size: 20px; 
+font-color: black; 
+text-align: center; 
+text-justify: auto;
 }
 
 .sections {
-  display: flex; 
-  flex-direction: column; 
-  min-height: 100vh;
-  align-items: stretch;
+display: flex; 
+flex-direction: column; 
+min-height: 100vh;
+align-items: stretch;
 }
 
 .navbar {
 display: flex;
-  background-color: black; 
-  position: fixed; 
-  overflow: hidden; 
-  justify-content: space-around;
-  top: 0;
-  width: 100%;
-  
-  font-family: 'Arapey', serif;
-  font-size: 20px;
-    z-index: 1;
+background-color: black; 
+position: fixed; 
+overflow: hidden; 
+justify-content: space-around;
+top: 0;
+width: 100%;
+
+font-family: 'Arapey', serif;
+font-size: 20px;
+  z-index: 1;
 }
 
 .nav_logo {
-  height: 100px; 
-  width: 100px; 
-  border-color: black;
-      border-width: 6.75px; 
-      border-style: double dotted double dotted;
-      border-radius: 100%;
+height: 100px; 
+width: 100px; 
+border-color: black;
+    border-width: 6.75px; 
+    border-style: double dotted double dotted;
+    border-radius: 100%;
 }
 
 .bg_black {
 background-color: black; 
 color: white;
-  height: 90%;
+height: 90%;
 }
 
 .bg_black:hover {
@@ -85,23 +85,23 @@ color: pink;
 
 
 .name {
-  background-color: white;
-  margin-top: 10px; 
-  min-height: 100; 
-  text-align: center; 
-  font-family: 'Permanent marker', cursive;
-  font-size: 40px; 
-  color: pink; 
-  
+background-color: white;
+margin-top: 10px; 
+min-height: 100; 
+text-align: center; 
+font-family: 'Permanent marker', cursive;
+font-size: 40px; 
+color: pink; 
+
 }
 
 #about_pic {
-      border-color: black;
-      border-width: 6.75px; 
-      border-style: double dotted double dotted;
-      border-radius: 100%;
-      width: 150px; 
-      height: 150px;
+    border-color: black;
+    border-width: 6.75px; 
+    border-style: double dotted double dotted;
+    border-radius: 100%;
+    width: 150px; 
+    height: 150px;
 }
 
 img.center {
@@ -111,85 +111,85 @@ margin-right: auto;
 }
 
 .about {
-    background-color: white;
-  flex: 2;
-  color: black; 
-  text-align: center;
-  
+  background-color: white;
+flex: 2;
+color: black; 
+text-align: center;
+
 }
 
 .projects { 
-    background-color: black;
-  color: white;
-  min-height: 20px;
-      font-family: 'arapey', serif;
-  font-size: 20px; 
+  background-color: black;
+color: white;
+min-height: 20px;
+    font-family: 'arapey', serif;
+font-size: 20px; 
 }
 
 .video { 
-  width: 560px;
-    height: 315px;
-    border: solid; 
-    border-style: double dotted double dotted; 
-    border-width: 6.75px;
-  }
+width: 560px;
+  height: 315px;
+  border: solid; 
+  border-style: double dotted double dotted; 
+  border-width: 6.75px;
+}
 
 .gallery {
-  background-color: white; 
+background-color: white; 
 }
 
 .gallery_pics {
-  margin: 10px;
-  height: 125px; 
-  width: 125px;
-  border-radius: 1000px;
-  border-width: 6.75px;
-  border-color: black;
-  border-style: double dotted double dotted;
-  filter: grayscale(100%);
+margin: 10px;
+height: 125px; 
+width: 125px;
+border-radius: 1000px;
+border-width: 6.75px;
+border-color: black;
+border-style: double dotted double dotted;
+filter: grayscale(100%);
 }
 
 .gallery_pics:hover{
-  filter: none;
-  border-color: pink;
+filter: none;
+border-color: pink;
 }
- .hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+.hvr-grow {
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: transform;
+transition-property: transform;
 }
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
 }
 
 .contact { 
 background-color: pink; 
-  height: 100%;
-  font-family: 'arapey', serif;
-  font-size: 20px; 
- color: white; 
-  text-align: center; 
-  text-justify: auto;
+height: 100%;
+font-family: 'arapey', serif;
+font-size: 20px; 
+color: white; 
+text-align: center; 
+text-justify: auto;
 }
 
 .contact h1 {
-  color: white;
+color: white;
 }
 
 .text_fields {
-  display: flex; 
-  flex-direction: column;
-  align-items: center;
-  width: 250%;
-  justify-content: space-between; 
-  margin-left: 20px;
+display: flex; 
+flex-direction: column;
+align-items: center;
+width: 250%;
+justify-content: space-between; 
+margin-left: 20px;
 }
 
 
@@ -197,52 +197,52 @@ background-color: pink;
 @media (min-width: 768px) {
 
 body {
-    background-color: black;
-    box-sizing: border-box; 
-    display: flex;
-  flex-direction: column; 
-  margin: 0;
+  background-color: black;
+  box-sizing: border-box; 
+  display: flex;
+flex-direction: column; 
+margin: 0;
 }
 
 h1 {
-  font-family: 'Permanent marker', cursive;
-  font-size: 40px;
-  color: pink; 
-  text-align: center; 
+font-family: 'Permanent marker', cursive;
+font-size: 40px;
+color: pink; 
+text-align: center; 
 }
 .white_text{
-  font-family: 'arapey', serif;
-  font-size: 20px; 
-  font-color: white; 
-  text-align: center; 
-  text-justify: auto;
+font-family: 'arapey', serif;
+font-size: 20px; 
+font-color: white; 
+text-align: center; 
+text-justify: auto;
 }
 .black_text{
-    font-family: 'arapey', serif;
-  font-size: 20px; 
-  font-color: black; 
-  text-align: center; 
-  text-justify: auto;
+  font-family: 'arapey', serif;
+font-size: 20px; 
+font-color: black; 
+text-align: center; 
+text-justify: auto;
 }
 
 .sections {
-  display: flex; 
-  flex-direction: column; 
-  min-height: 100vh;
-  align-items: stretch;
+display: flex; 
+flex-direction: column; 
+min-height: 100vh;
+align-items: stretch;
 }
 
 .navbar {
 display: flex;
-  background-color: black; 
-  position: fixed; 
-  overflow: hidden; 
-  justify-content: space-around;
-  top: 0;
-  width: 100%;
-  height: 20px; 
-  font-family: 'Arapey', serif;
-  font-size: 20px
+background-color: black; 
+position: fixed; 
+overflow: hidden; 
+justify-content: space-around;
+top: 0;
+width: 100%;
+height: 20px; 
+font-family: 'Arapey', serif;
+font-size: 20px
 }
 
 
@@ -250,7 +250,7 @@ display: flex;
 .bg_black {
 background-color: black; 
 color: white;
-  height: 90%;
+height: 90%;
 }
 
 .bg_black:hover {
@@ -274,22 +274,22 @@ color: pink;
 
 
 .name {
-  background-color: white;
-  margin-top: 10px; 
-  min-height: 45px; 
-  text-align: center; 
-  font-family: 'Permanent marker', cursive;
-  font-size: 40px; 
-  color: pink; 
+background-color: white;
+margin-top: 10px; 
+min-height: 45px; 
+text-align: center; 
+font-family: 'Permanent marker', cursive;
+font-size: 40px; 
+color: pink; 
 }
 
 #about_pic {
-      border-color: black;
-      border-width: 6.75px; 
-      border-style: double dotted double dotted;
-      border-radius: 100%;
-      width: 200px; 
-      height: 200px;
+    border-color: black;
+    border-width: 6.75px; 
+    border-style: double dotted double dotted;
+    border-radius: 100%;
+    width: 200px; 
+    height: 200px;
 }
 
 img.center {
@@ -299,103 +299,103 @@ margin-right: auto;
 }
 
 .about {
-    background-color: white;
-  flex: 2;
-  color: black; 
-  text-align: center;
-  
+  background-color: white;
+flex: 2;
+color: black; 
+text-align: center;
+
 }
 
 .projects { 
-    background-color: black;
-  flex: 4;
-  min-height: 20px;
+  background-color: black;
+flex: 4;
+min-height: 20px;
 }
-   .video { 
-  width: 560px;
-    height: 315px;
-    border: solid; 
-    border-style: double dotted double dotted; 
-    border-width: 6.75px;
-  }
-  
+ .video { 
+width: 560px;
+  height: 315px;
+  border: solid; 
+  border-style: double dotted double dotted; 
+  border-width: 6.75px;
+}
+
 .gallery {
-  background-color: white; 
+background-color: white; 
 }
 
 .gallery_pics {
-  height: 200px; 
-  width: 200px;
-  border-radius: 1000px;
-  border-width: 6.75px;
-  border-color: black;
-  border-style: double dotted double dotted;
-  filter: grayscale(100%);
+height: 200px; 
+width: 200px;
+border-radius: 1000px;
+border-width: 6.75px;
+border-color: black;
+border-style: double dotted double dotted;
+filter: grayscale(100%);
 }
 
 .gallery_pics:hover{
-  filter: none;
-  border-color: pink;
+filter: none;
+border-color: pink;
 }
 
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
 @media (min-width: 960px) {
 body {
-    background-color: white;
-    box-sizing: border-box; 
-    display: flex;
-  flex-direction: column; 
-  margin: 0;
-    background: url("https://i.imgur.com/MJAkxbh.png");
+  background-color: white;
+  box-sizing: border-box; 
+  display: flex;
+flex-direction: column; 
+margin: 0;
+  background: url("https://i.imgur.com/MJAkxbh.png");
 }
 
 h1 {
-  font-family: 'Permanent marker', cursive;
-  font-size: 40px;
-  color: white; 
-  text-align: center; 
+font-family: 'Permanent marker', cursive;
+font-size: 60px;
+color: white; 
+text-align: center; 
 }
 .white_text{
-  font-family: 'arapey', serif;
-  font-size: 20px; 
-  font-color: black; 
-  text-align: center; 
-  text-justify: auto;
+font-family: 'arapey', serif;
+font-size: 30px; 
+font-color: black; 
+text-align: center; 
+text-justify: auto;
 }
 .black_text{
-    font-family: 'arapey', serif;
-  font-size: 20px; 
-  font-color: white; 
-  text-align: center; 
-  text-justify: auto;
+  font-family: 'arapey', serif;
+font-size: 30px; 
+font-color: white; 
+text-align: center; 
+text-justify: auto;
 }
 
 .sections {
-  display: flex; 
-  flex-direction: column; 
-  min-height: 100vh;
-  align-items: stretch;
+display: flex; 
+flex-direction: column; 
+min-height: 100vh;
+align-items: stretch;
 
 }
 
 .navbar {
 display: flex;
-  background-color: pink; 
-  position: fixed; 
-  overflow: hidden; 
-  justify-content: space-around;
-  width: 100%;
-  height: 40px; 
-  font-family: 'Arapey', serif;
-  font-size: 30px;
-  z-index: 2;
+background-color: pink; 
+position: fixed; 
+overflow: hidden; 
+justify-content: space-around;
+width: 100%;
+height: 40px; 
+font-family: 'Arapey', serif;
+font-size: 30px;
+z-index: 2;
 }
 
 
@@ -403,7 +403,7 @@ display: flex;
 .bg_black {
 background-color: pink; 
 color: white;
-  height: 90%;
+height: 90%;
 }
 
 .bg_black:hover {
@@ -428,23 +428,23 @@ color: pink;
 
 
 .name {
-  background-color: black;
-  margin-top: 35px; 
-  min-height: 45px; 
-  text-align: center; 
-  font-family: 'Permanent marker', cursive;
-  font-size: 40px; 
-  color: white;
-  flex 1;
+background-color: black;
+margin-top: 35px; 
+min-height: 45px; 
+text-align: center; 
+font-family: 'Permanent marker', cursive;
+font-size: 60px; 
+color: white;
+flex 1;
 }
 
 #about_pic {
-      border-color: white;
-      border-width: 6.75px; 
-      border-style: double dotted double dotted;
-      border-radius: 100%;
-      width: 200px; 
-      height: 200px;
+    border-color: white;
+    border-width: 6.75px; 
+    border-style: double dotted double dotted;
+    border-radius: 100%;
+    width: 250px; 
+    height: 250px;
 }
 
 img.center {
@@ -454,94 +454,286 @@ margin-right: auto;
 }
 
 .about {
-    background-color: black;
-  flex: 2;
-  color: white; 
-  text-align: center;
-  
+  background-color: black;
+flex: 2;
+color: white; 
+text-align: center;
+
 }
 
 .projects { 
-    background-color: pink;
-  flex: 2;
-  min-height: 20px;
+  background-color: pink;
+flex: 2;
+min-height: 20px;
 }
-  
-  .project_text {
-    color: white; 
-    font-family: arapey, 
-      serif; font-size: 20px; 
-    text-align: center;
-  }
-  
-  
-  .video { 
-  width: 560px;
-    height: 315px;
-    border: solid; 
-    border-style: double dotted double dotted; 
-    border-width: 6.75px;
-    border-color: white;
-  }
+
+.project_text {
+  color: white; 
+  font-family: arapey, 
+    serif; font-size: 30px; 
+  text-align: center;
+}
+
+
+.video { 
+width: 700px;
+  height: 515px;
+  border: solid; 
+  border-style: double dotted double dotted; 
+  border-width: 6.75px;
+  border-color: white;
+}
 
 .gallery {
-  background-color: white; 
+background-color: white; 
 }
 
 .gallery_pics {
-  height: 250px; 
-  width: 250px;
-  border-radius: 1000px;
-  border-width: 6.75px;
-  border-color: black;
-  border-style: double dotted double dotted;
-  filter: grayscale(100%);
-  margin: 7px;
-  flex: 1;
+height: 250px; 
+width: 250px;
+border-radius: 1000px;
+border-width: 6.75px;
+border-color: black;
+border-style: double dotted double dotted;
+filter: grayscale(100%);
+margin: 7px;
+flex: 1;
 }
 
 .gallery_pics:hover{
-  filter: none;
-  border-color: pink;
+filter: none;
+border-color: pink;
 }
-  .hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+.hvr-grow {
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: transform;
+transition-property: transform;
 }
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
 }
+
+#bottom_of_page { 
+}
+
+.contact {
+  background-color: white;
+  color: pink;
+  font-family: arapey, 
+    serif; font-size: 30px; 
+  text-align: center;
+}
+
+.contact h1 {
+  color: pink;
   
-  #bottom_of_page { 
-  }
-  
-  .contact {
-    background-color: white;
-    color: pink;
-    font-family: arapey, 
-      serif; font-size: 20px; 
-    text-align: center;
-  }
-  
-  .contact h1 {
-    color: pink;
-    
-/*   } .text_fields {
-  display: flex; 
-  flex-direction: column;
-  align-items: center;
-  width: 59%;
-    height 50%;
-  justify-content: space-between; 
-  margin-left: 400px;
+} 
+/*   .text_fields { 
+display: flex; 
+flex-direction: column;
+align-items: center;
+width: 59%;
+  height 50%;
+justify-content: space-between; 
+margin-left: 400px;
 } */
 
+}
+
+@media (min-width: 1200px) {
+  body {
+  background-color: white;
+  box-sizing: border-box; 
+  display: flex;
+flex-direction: column; 
+margin: 0;
+  background: url("https://i.imgur.com/MJAkxbh.png");
+}
+
+h1 {
+font-family: 'Permanent marker', cursive;
+font-size: 80px;
+color: white; 
+text-align: center; 
+}
+.white_text{
+font-family: 'arapey', serif;
+font-size: 20px; 
+font-color: black; 
+text-align: center; 
+text-justify: auto;
+}
+.black_text{
+  font-family: 'arapey', serif;
+font-size: 40px; 
+font-color: white; 
+text-align: center; 
+text-justify: auto;
+}
+
+.sections {
+display: flex; 
+flex-direction: column; 
+min-height: 100vh;
+align-items: stretch;
+
+}
+
+.navbar {
+display: flex;
+background-color: pink; 
+position: fixed; 
+overflow: hidden; 
+justify-content: space-around;
+width: 100%;
+height: 40px; 
+font-family: 'Arapey', serif;
+font-size: 38px;
+z-index: 2;
+}
+
+
+
+.bg_black {
+background-color: pink; 
+color: white;
+height: 90%;
+}
+
+.bg_black:hover {
+
+color: black; 
+
+}
+
+.bg_white:hover {
+background-color: ; 
+color: pink;
+}
+
+.navbar text{ 
+
+}
+
+.navbar text:hover{
+
+}
+
+
+
+.name {
+background-color: black;
+margin-top: 35px; 
+min-height: 45px; 
+text-align: center; 
+font-family: 'Permanent marker', cursive;
+font-size: 80px; 
+color: white;
+flex 1;
+}
+
+#about_pic {
+    border-color: white;
+    border-width: 6.75px; 
+    border-style: double dotted double dotted;
+    border-radius: 100%;
+    width: 350px; 
+    height: 350px;
+}
+
+img.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.about {
+  background-color: black;
+flex: 2;
+color: white; 
+text-align: center;
+
+}
+
+.projects { 
+  background-color: pink;
+flex: 2;
+min-height: 20px;
+}
+
+.project_text {
+  color: white; 
+  font-family: arapey, 
+    serif; font-size: 40px; 
+  text-align: center;
+}
+
+
+.video { 
+width: 900px;
+  height: 715px;
+  border: solid; 
+  border-style: double dotted double dotted; 
+  border-width: 6.75px;
+  border-color: white;
+}
+
+.gallery {
+background-color: white; 
+}
+
+.gallery_pics {
+height: 350px; 
+width: 350px;
+border-radius: 1000px;
+border-width: 6.75px;
+border-color: black;
+border-style: double dotted double dotted;
+filter: grayscale(100%);
+margin: 10px;
+flex: 1;
+}
+
+.gallery_pics:hover{
+filter: none;
+border-color: pink;
+}
+.hvr-grow {
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: transform;
+transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+#bottom_of_page { 
+}
+
+.contact {
+  background-color: white;
+  color: pink;
+  font-family: arapey, 
+    serif; font-size: 40px; 
+  text-align: center;
+}
+
+.contact h1 {
+  color: pink;
+  
+} 
 }
