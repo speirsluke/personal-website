@@ -139,8 +139,8 @@ font-size: 20px;
 }
 
 .video { 
-width: 560px;
-  height: 315px;
+width: 460px;
+  height: 215px;
   border: solid; 
   border-style: double dotted double dotted; 
   border-width: 6.75px;
@@ -286,12 +286,6 @@ color: pink;
     height: 200px;
 }
 
-img.center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-
 .about {
   background-color: white;
 flex: 2;
@@ -431,16 +425,6 @@ background-color: ;
 color: pink;
 }
 
-.navbar text{ 
-
-}
-
-.navbar text:hover{
-
-}
-
-
-
 .name {
 background-color: black;
 margin-top: 35px; 
@@ -459,12 +443,6 @@ flex 1;
     border-radius: 100%;
     width: 250px; 
     height: 250px;
-}
-
-img.center {
-display: block;
-margin-left: auto;
-margin-right: auto;
 }
 
 .about {
@@ -561,16 +539,6 @@ transform: scale(1.1);
   color: pink;
   
 } 
-/*   .text_fields { 
-display: flex; 
-flex-direction: column;
-align-items: center;
-width: 59%;
-  height 50%;
-justify-content: space-between; 
-margin-left: 400px;
-} */
-
 }
 
 @media (min-width: 1400px) {
@@ -668,12 +636,6 @@ flex 1;
     height: 350px;
 }
 
-img.center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-
 .about {
   background-color: black;
 flex: 2;
@@ -767,11 +729,10 @@ transform: scale(1.1);
   color: pink;
   
 } 
-  .forms {
+  
+  .enquiry{
+    display: flex; 
     
   }
-  
-  .enquiry { 
-
 }
 }
